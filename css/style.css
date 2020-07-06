@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+/*Navbar Start*/
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'MuseoModerno';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding-left: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    transition: all linear .3s;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: royalblue;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: royalblue;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover:after {
+    opacity: 1;
+    width: 100%;
+}
+
+/*Navbar End*/
+
+/*Banner Start*/
+#particles-js {
+    background: linear-gradient(90deg, rgba(31, 47, 152, 1) 0%, rgba(120, 127, 246, 1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    display: flex;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.banner-title {
+    padding-top: 100px;
+}
+
+.banner-title h1 {
+    font-family: 'MuseoModerno';
+    font-weight: 400;
+    font-size: 38px;
+    color: #fff;
+}
+
+.banner-title p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.download-buttons {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-galahad {
+    padding: 10px 30px;
+    color: #444;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    transition: all linear 0.4;
+}
+
+.btn-galahad:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.app {
+    position: relative;
+}
+
+.iphone {
+    position: absolute;
+    top: 0;
+    z-index: 55;
+    display: block;
+}
+
+.app-pages {
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+/*Banner End*/
+
+/*About Start*/
+#about {
+    margin-bottom: 75px;
+}
+
+.heading h3 {
+    color: linear-gradient(90deg, rgba(31, 47, 152, 1) 0%, rgba(120, 127, 246, 1) 100%);
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 32px;
+    position: relative;
+}
+
+.heading h3:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 25%;
+    left: 25%;
+    bottom: -10px;
+    background: linear-gradient(90deg, rgba(31, 47, 152, 1) 0%, rgba(120, 127, 246, 1) 100%);
+}
+
+.heading p {
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: linear-gradient(90deg, rgba(31, 47, 152, 1) 0%, rgba(120, 127, 246, 1) 100%);
+}
+
+.about-app {
+    padding: 5px 10px;
+    transition: all linear 0.3s;
+    position: relative;
+}
+
+.about-app:before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #1f2f98;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.about-app:hover {
+    box-shadow: 1px 1px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+.about-app:hover:before {
+    width: 100%;
+}
+
+.about-app .icon span {
+    font-size: 50px;
+    color: #1f2f98 !important;
+}
+
+.about-app h5 {
+    color: #131c58;
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.about-app p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #131c58;
+}
+
+/*About End*/
+
+/*Features Start*/
+#features {
+    padding-top: 75px;
+    background: #EBE8F9;
+    margin-bottom: 75px;
+}
+
+.features .icon {
+    background: #131c58;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 5%;
+    transition: all linear 0.2s;
+}
+
+.features-all:hover .features .icon {
+    border-radius: 50%;
+}
+
+.features-all {
+    padding-top: 35px;
+}
+
+.features .icon span{
+    font-size: 28px;
+    color: #fff;
+}
+
+.features h5 {
+    color: #131c58;
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.features p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444;
+}
+/*Features End*/
