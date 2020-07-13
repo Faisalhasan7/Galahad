@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 06/07/2020 13:43
+  	Creation date: 08/07/2020 13:47
   	*/
 
 @font-face {
@@ -25,9 +25,7 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-
-font-style: normal;
-
+        
 }
 
 .flaticon-headphones:before { content: "\f100"; }
@@ -35,3 +33,8 @@ font-style: normal;
 .flaticon-artist:before { content: "\f102"; }
 .flaticon-magic-wand:before { content: "\f103"; }
 .flaticon-vector:before { content: "\f104"; }
+.flaticon-dollar-tag:before { content: "\f105"; }
+.flaticon-cake-slice:before { content: "\f106"; }
+.flaticon-report:before { content: "\f107"; }
+.flaticon-updated:before { content: "\f108"; }
+.flaticon-team-work:before { content: "\f109"; }

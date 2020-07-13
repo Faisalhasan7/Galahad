@@ -3,20 +3,25 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galahad</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/flaticon/flaticon.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <!--Nabvar Strat -->
+    <!--Navbar Start-->
     <section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#">Galahad</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,23 +30,23 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About App</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Faq</a>
+                            <a class="nav-link" href="#faq">Faq</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#blog">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#footer">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -50,30 +55,30 @@
     </section>
     <!--Nabvar End -->
 
+
     <!--Banner Start-->
-    <section id="particles-js">
+    <section id="banner">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9">
+                <div class="col-lg-8">
                     <div class="banner-title">
                         <h1>Galahad - App Landing Page</h1>
                         <p>Our software platform and custom development allow healthcare institutions to create comprehensive cross-platform solutions that ensure positive patient experiences.</p>
+                    </div>
+                    <div class="download-buttons">
+                        <button type="button" class="btn">Android <i class="fa fa-android"></i></button>
+                        <button type="button" class="btn">iOS <i class="fa fa-apple"></i></button>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="app">
                         <div class="app-pages owl-carousel">
-                            <img src="images/app/top-screen-1.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-2.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-3.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-4.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-5.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-6.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-7.png" alt="" class="img-responsive">
+                            <img src="images/app/top-screen-1.jpg" alt="top-screen-1.jpg" class="img-fluid">
+                            <img src="images/app/top-screen-1.jpg" alt="top-screen-1.jpg" class="img-fluid">
+                            <img src="images/app/top-screen-1.jpg" alt="top-screen-1.jpg" class="img-fluid">
                         </div>
-
                         <div class="iphone">
-                            <img src="images/app/phone-frame.png" alt="" class="img-responsive">
+                            <img src="images/app/phone-frame.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -82,14 +87,14 @@
     </section>
     <!-- Banner End-->
 
-    <!--Banner Start-->
+    <!--About Start-->
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 m-auto">
+                <div class="col-lg-7 m-auto">
                     <div class="heading text-center">
                         <h3>What is galahad?</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatem fugiat, temporibus vitae quos doloremque!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequuntur maxime, ut cupiditate, placeat impedit, tempore praesentium reprehenderit blanditiis.</p>
                     </div>
                 </div>
             </div>
@@ -134,33 +139,26 @@
             </div>
         </div>
     </section>
-    <!--Banner Start-->
+    <!--About Start-->
 
     <!--Features Start-->
     <section id="features">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 m-auto">
+                <div class="col-lg-7 m-auto">
                     <div class="heading text-center">
                         <h3>Galahad Features</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, dolorem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequuntur maxime, ut cupiditate, placeat impedit, tempore praesentium reprehenderit blanditiis.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="row features-all">
+            <div class="row f-phone">
                 <div class="col-lg-3">
                     <div class="app">
                         <div class="app-pages owl-carousel">
-                            <img src="images/app/top-screen-1.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-2.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-3.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-4.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-5.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-6.png" alt="" class="img-responsive">
-                            <img src="images/app/top-screen-7.png" alt="" class="img-responsive">
+                            <img src="images/app/top-screen-1.jpg" alt="" class="img-fluid">
+                            <img src="images/app/top-screen-1.jpg" alt="" class="img-fluid">
                         </div>
-
                         <div class="iphone">
                             <img src="images/app/phone-frame.png" alt="" class="img-responsive">
                         </div>
@@ -171,7 +169,7 @@
                         <div class="col-lg-2">
                             <div class="features">
                                 <div class="icon">
-                                    <span class="flaticon-smile"></span>
+                                    <span class="flaticon-dollar-tag"></span>
                                 </div>
                             </div>
                         </div>
@@ -182,12 +180,11 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="row features-all">
                         <div class="col-lg-2">
                             <div class="features">
                                 <div class="icon">
-                                    <span class="flaticon-smile"></span>
+                                    <span class="flaticon-cake-slice"></span>
                                 </div>
                             </div>
                         </div>
@@ -198,12 +195,11 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="row features-all">
                         <div class="col-lg-2">
                             <div class="features">
                                 <div class="icon">
-                                    <span class="flaticon-smile"></span>
+                                    <span class="flaticon-report"></span>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +216,7 @@
                         <div class="col-lg-2">
                             <div class="features">
                                 <div class="icon">
-                                    <span class="flaticon-smile"></span>
+                                    <span class="flaticon-updated"></span>
                                 </div>
                             </div>
                         </div>
@@ -231,12 +227,11 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="row features-all">
                         <div class="col-lg-2">
                             <div class="features">
                                 <div class="icon">
-                                    <span class="flaticon-smile"></span>
+                                    <span class="flaticon-team-work"></span>
                                 </div>
                             </div>
                         </div>
@@ -247,12 +242,11 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="row features-all">
                         <div class="col-lg-2">
                             <div class="features">
                                 <div class="icon">
-                                    <span class="flaticon-smile"></span>
+                                    <span class="flaticon-headphones"></span>
                                 </div>
                             </div>
                         </div>
@@ -269,12 +263,400 @@
     </section>
     <!--Features End-->
 
-    <script src="js/bootstrap.min.js"></script>
+    <!--Video Start-->
+    <section id="video">
+        <div class="video-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="video-youtube text-center">
+                        <div class="icon venobox" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/embed/9No-FiEInLA">
+                            <span class="flaticon-smile"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Video End-->
+
+    <!--Testomonial Start-->
+    <section id="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="app-stats">
+                        <h2>Concurrent App Stats:</h2>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col">
+                            <div class="counterup text-center">
+                                <h1><span class="counter">1000000</span>+</h1>
+                                <h3>Downloads</h3>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="counterup text-center">
+                                <h1><span class="counter">78000</span>+</h1>
+                                <h3>Reviews</h3>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="counterup text-center">
+                                <h1><span class="counter">4500</span>+</h1>
+                                <h3>Premium User's</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="user-review">
+                        <h2>Reviews:</h2>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="user-reviews">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="users">
+                                    <img src="images/user/user-1.png" class="img-fluid w-100" alt="user-1.png">
+                                </div>
+                            </div>
+                            <div class="col-lg-9 px-0">
+                                <div class="users">
+                                    <h4>John Doe</h4>
+                                    <h5>Job Title</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat similique harum, accusantium distinctio sapiente repellendus voluptas illo laudantium temporibus accusamus commodi eos maxime quis sit nulla in facere eveniet sunt.</p>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3">
+                    <div class="user-reviews">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="users">
+                                    <img src="images/user/user-1.png" class="img-fluid w-100" alt="user-1.png">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 px-0">
+                                <div class="users">
+                                    <h4>John Doe</h4>
+                                    <h5>Job Title</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat similique harum, accusantium distinctio sapiente repellendus voluptas illo laudantium temporibus.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3">
+                    <div class="user-reviews">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="users">
+                                    <img src="images/user/user-1.png" class="img-fluid w-100" alt="user-1.png">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 px-0">
+                                <div class="users">
+                                    <h4>John Doe</h4>
+                                    <h5>Job Title</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat similique harum, accusantium distinctio sapiente repellendus voluptas illo laudantium temporibus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4">
+                    <div class="user-reviews">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="users">
+                                    <img src="images/user/user-1.png" class="img-fluid w-100" alt="user-1.png">
+                                </div>
+                            </div>
+                            <div class="col-lg-9 px-0">
+                                <div class="users">
+                                    <h4>John Doe</h4>
+                                    <h5>Job Title</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat similique harum, accusantium distinctio sapiente repellendus voluptas illo laudantium temporibus accusamus commodi eos maxime quis sit nulla in facere eveniet sunt.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Testomonial End-->
+
+    <!--Faq Start-->
+    <section id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 m-auto">
+                    <div class="heading text-center">
+                        <h3>frequently asked questions</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequuntur maxime, ut cupiditate, placeat impedit, tempore praesentium reprehenderit blanditiis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div id="accordion">
+
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <button class="btn btn-link w-100" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Modern, Elegant Design? <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nulla, odit quos corporis quam aperiam, nesciunt illum, voluptatum ad impedit laborum eveniet inventore, necessitatibus explicabo! Ex numquam minima placeat tempora rerum! Blanditiis quae excepturi tenetur, rem sint illum totam accusamus explicabo praesentium provident a eveniet deleniti nobis, quod dolores accusantium impedit debitis iste ad ab commodi natus dignissimos. Magnam quod saepe libero sed, enim molestias nihil repellendus porro fugit. Eius non quidem odit id ullam quibusdam qui eum numquam modi repellendus atque ipsum repudiandae dignissimos asperiores architecto, ex officiis eaque alias voluptates facilis quas, rem distinctio eveniet! Porro, nesciunt, quae!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <button class="btn btn-link w-100 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Cross Multiplatform Support ? <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nulla, odit quos corporis quam aperiam, nesciunt illum, voluptatum ad impedit laborum eveniet inventore, necessitatibus explicabo! Ex numquam minima placeat tempora rerum! Blanditiis quae excepturi tenetur, rem sint illum totam accusamus explicabo praesentium provident a eveniet deleniti nobis, quod dolores accusantium impedit debitis iste ad ab commodi natus dignissimos. Magnam quod saepe libero sed, enim molestias nihil repellendus porro fugit. Eius non quidem odit id ullam quibusdam qui eum numquam modi repellendus atque ipsum repudiandae dignissimos asperiores architecto, ex officiis eaque alias voluptates facilis quas, rem distinctio eveniet! Porro, nesciunt, quae!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <button class="btn btn-link w-100 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Cross Multiplatform Support ? <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nulla, odit quos corporis quam aperiam, nesciunt illum, voluptatum ad impedit laborum eveniet inventore, necessitatibus explicabo! Ex numquam minima placeat tempora rerum! Blanditiis quae excepturi tenetur, rem sint illum totam accusamus explicabo praesentium provident a eveniet deleniti nobis, quod dolores accusantium impedit debitis iste ad ab commodi natus dignissimos. Magnam quod saepe libero sed, enim molestias nihil repellendus porro fugit. Eius non quidem odit id ullam quibusdam qui eum numquam modi repellendus atque ipsum repudiandae dignissimos asperiores architecto, ex officiis eaque alias voluptates facilis quas, rem distinctio eveniet! Porro, nesciunt, quae!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <button class="btn btn-link w-100 collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    User Experience Design ? <i class="fa fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nulla, odit quos corporis quam aperiam, nesciunt illum, voluptatum ad impedit laborum eveniet inventore, necessitatibus explicabo! Ex numquam minima placeat tempora rerum! Blanditiis quae excepturi tenetur, rem sint illum totam accusamus explicabo praesentium provident a eveniet deleniti nobis, quod dolores accusantium impedit debitis iste ad ab commodi natus dignissimos. Magnam quod saepe libero sed, enim molestias nihil repellendus porro fugit. Eius non quidem odit id ullam quibusdam qui eum numquam modi repellendus atque ipsum repudiandae dignissimos asperiores architecto, ex officiis eaque alias voluptates facilis quas, rem distinctio eveniet! Porro, nesciunt, quae!
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Faq End-->
+
+    <!--Latest News Start-->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 m-auto">
+                    <div class="heading text-center">
+                        <h3>Latest News?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequuntur maxime, ut cupiditate, placeat impedit, tempore praesentium reprehenderit blanditiis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row slick">
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="images/latest-news/blog-img1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="news-content">
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores quasi eos, deleniti similique quae tempora animi sed ex illum!</p>
+
+                            <a href="#">Read More <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="images/latest-news/blog-img2.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="news-content">
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores quasi eos, deleniti similique quae tempora animi sed ex illum!</p>
+
+                            <a href="#">Read More <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="images/latest-news/blog-img3.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="news-content">
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores quasi eos, deleniti similique quae tempora animi sed ex illum!</p>
+
+                            <a href="#">Read More <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="images/latest-news/blog-img4.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="news-content">
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores quasi eos, deleniti similique quae tempora animi sed ex illum!</p>
+                            <a href="#">Read More <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 m-auto">
+                    <div class="arrow text-center">
+                        <i class="fa fa-angle-left"></i>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Latest News End-->
+
+    <!--Footer Start-->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact">
+                        <h2>Contact with us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, consequuntur vel sint porro voluptatum veritatis, alias animi labore voluptas, qui repudiandae debitis repellendus quia libero deserunt quidem quisquam vitae iure.</p>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Head Office</h3>
+                        <p> 420 Dane Mor, Bamer Goli, Bangladesh</p>
+                        <ul>
+                            <li> <i class="fa fa-phone"></i> Phone: +12 3 4567 8910</li>
+                            <li><i class="fa fa-envelope-o"> </i> <span>Email : <a href="mailto:contact@galahad.com">contact@galahad.com</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="socials">
+                        <a class="fa fa-twitter" href="http://www.twitter.com" target="_blank"></a>
+                        <a class="fa fa-facebook" href="http://www.facebook.com" target="_blank"></a>
+                        <a class="fa fa-instagram" href="http://www.instagram.com" target="_blank"></a>
+                        <a class="fa fa-snapchat" href="http://www.snapchat.com" target="_blank"></a>
+                        <a class="fa fa-youtube" href="http://www.youtube.com" target="_blank"></a>
+                        <a class="fa fa-linkedin" href="http://www.linkedin.com" target="_blank"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- contact form -->
+                    <div class="wow animated fadeInRight" data-wow-delay=".2s">
+                        <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                            <!-- Name -->
+                            <div class="form-group label-floating">
+                                <label class="control-label" for="name">Name</label>
+                                <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- email -->
+                            <div class="form-group label-floating">
+                                <label class="control-label" for="email">Email</label>
+                                <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Subject -->
+                            <div class="form-group label-floating">
+                                <label class="control-label">Subject</label>
+                                <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Message -->
+                            <div class="form-group label-floating">
+                                <label for="message" class="control-label">Message</label>
+                                <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <!-- Form Submit -->
+                            <div class="form-submit mt-5">
+                                <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!--Footer End-->
+
+    <!--Copyright Start-->
+    <section id="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="copy text-center">
+                        &copy All rights reserved 2020.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Copyright End-->
+
+    <!--Back to top Start-->
+    <a class="back-to-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <!--Back to top End-->
+
     <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/waypoints.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 
