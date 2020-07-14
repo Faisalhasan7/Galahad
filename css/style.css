@@ -126,14 +126,17 @@ ol {
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 18px;
-    transition: all linear 0.4;
+    transition: all linear 0.3;
     background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+
 }
 
 .download-buttons button:hover {
-    background: transparent;
     border: 1px solid #fff;
-    color: #fff;
+    color: #333;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+
 }
 
 .app {
@@ -206,7 +209,9 @@ ol {
 }
 
 .about-app:hover {
-    box-shadow: 1px 1px 9px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 9px 2px rgba(0, 0, 0, 0.25),
+    inset 0 1px 2px rgba(0, 0, 0, 0.15);
+
 }
 
 .about-app:hover:before {
@@ -339,7 +344,6 @@ ol {
 
 .video-youtube .icon:hover span {
     color: #ffffff;
-
 }
 
 @-webkit-keyframes ripple-white {
